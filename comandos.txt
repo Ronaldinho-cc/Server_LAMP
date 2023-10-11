@@ -7,6 +7,8 @@ sudo apt upgrade
 //Instalación y verificación de estado   
 sudo apt install apache2 -y
 sudo systemctl status apache2
+sudo apt install php libapache2-mod-php php-mysql.
+
 sudo apt install mysql-server
 sudo apt systemctl status mysql
 sudo apt install phpmyadmin
@@ -26,3 +28,4 @@ sudo mysql -u root -p
 create user ‘ronal’@’localhost’ IDENTIFIED WITH mysql_native_password by ‘ronal12’;
 flush privileges;
 Exit
+ 
