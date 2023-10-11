@@ -1,0 +1,28 @@
+COMANDOS USADOS 
+//actualización del sistema
+
+sudo apt update 
+sudo apt upgrade
+
+//Instalación y verificación de estado   
+sudo apt install apache2 -y
+sudo systemctl status apache2
+sudo apt install mysql-server
+sudo apt systemctl status mysql
+sudo apt install phpmyadmin
+
+//configuración de mysql  
+sudo mysql_secure_installation
+configuración : 
+Y
+N
+Y
+Y
+Y
+sudo mysql -u root
+sudo mysql -u root -p
+
+//Creación de usuario 
+create user ‘ronal’@’localhost’ IDENTIFIED WITH mysql_native_password by ‘ronal12’;
+flush privileges;
+Exit
