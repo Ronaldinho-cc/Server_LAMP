@@ -1,0 +1,33 @@
+                                                                Manual de lanzar un servidor  
+1.- Lanzamos nuestra instancia en ubuntu (20.04) 
+
+2.- Una vez lanzado la instancia conectaremos con el visual studio code
+
+3.- Ejecutamos los siguientes comandos 
+    sudo apt update 
+    sudo apt upgrade 
+    sudo apt install -y node.js
+    npm install express 
+    sudo apt install -y npm 
+    node -v
+    npm -v
+
+    
+// comandos que usamos 
+
+//Vereficamos si hay alguna actualización en el sistema y subimos
+sudo apt update 
+sudo apt upgrade 
+
+//Instalamos el node.js , express y el npm 
+sudo apt install -y node.js
+npm install express 
+sudo apt install -y npm
+
+//Vereficamos la version del node.js y npm
+node -v //sirve para ver la version del node.js
+npm -v  //sirve para ver la version del npm
+
+//Opcional si queremos ver los comandos usados 
+
+history // Sirve para listar los comandos usados 
